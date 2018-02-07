@@ -1,0 +1,43 @@
+PODS:
+  - Alamofire (4.6.0)
+  - Bolts/Tasks (1.9.0)
+  - DCKit (1.0.10)
+  - Eureka (4.0.1)
+  - Parse (1.16.0):
+    - Parse/Core (= 1.16.0)
+  - Parse/Core (1.16.0):
+    - Bolts/Tasks (~> 1.9)
+  - SDWebImage (4.3.0):
+    - SDWebImage/Core (= 4.3.0)
+  - SDWebImage/Core (4.3.0)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - DCKit (from `https://github.com/agordeev/DCKit.git`)
+  - Eureka
+  - Parse
+  - SDWebImage (~> 4.0)
+  - SwiftyJSON
+
+EXTERNAL SOURCES:
+  DCKit:
+    :git: https://github.com/agordeev/DCKit.git
+
+CHECKOUT OPTIONS:
+  DCKit:
+    :commit: c9350bc29ce092097cc72dd28c4cc8c784a64203
+    :git: https://github.com/agordeev/DCKit.git
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  DCKit: 81057c52d25f681bb70c3349adeb16c70cd3b424
+  Eureka: c8bd5cc07143b6f66268c208d28a246c99b41955
+  Parse: 5b36dc2c2f0a2fd82a257ae018bc3d68cf2c24e7
+  SDWebImage: 6da6c8bca115addc4de8613362e1b15f66333825
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: 9dc506794f5954c00999a58eb77d4d16fc4fc0eb
+
+COCOAPODS: 1.3.1

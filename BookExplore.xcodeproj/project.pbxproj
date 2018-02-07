@@ -13,9 +13,15 @@
 		3819F184202A26EF002DC274 /* BookExplore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3819F182202A26EF002DC274 /* BookExplore.xcdatamodeld */; };
 		3819F186202A26EF002DC274 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3819F185202A26EF002DC274 /* Assets.xcassets */; };
 		3819F189202A26EF002DC274 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3819F187202A26EF002DC274 /* LaunchScreen.storyboard */; };
+		381C9F7B202A3DE1006E01B5 /* userFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381C9F7A202A3DE1006E01B5 /* userFormViewController.swift */; };
+		381C9F7D202A3F83006E01B5 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381C9F7C202A3F83006E01B5 /* Book.swift */; };
+		381C9F7F202AA97C006E01B5 /* addBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381C9F7E202AA97C006E01B5 /* addBookViewController.swift */; };
+		60CA3E5F994A60E821B7114E /* Pods_BookExplore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 330424163BB4F26F49A9A900 /* Pods_BookExplore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A38A2BD23221E806D5060CB /* Pods-BookExplore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookExplore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BookExplore/Pods-BookExplore.debug.xcconfig"; sourceTree = "<group>"; };
+		330424163BB4F26F49A9A900 /* Pods_BookExplore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookExplore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3819F178202A26EF002DC274 /* BookExplore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookExplore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3819F17B202A26EF002DC274 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3819F17D202A26EF002DC274 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +30,10 @@
 		3819F185202A26EF002DC274 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3819F188202A26EF002DC274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3819F18A202A26EF002DC274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		381C9F7A202A3DE1006E01B5 /* userFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userFormViewController.swift; sourceTree = "<group>"; };
+		381C9F7C202A3F83006E01B5 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		381C9F7E202AA97C006E01B5 /* addBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addBookViewController.swift; sourceTree = "<group>"; };
+		6B92227130EDF4860918BA8C /* Pods-BookExplore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookExplore.release.xcconfig"; path = "Pods/Target Support Files/Pods-BookExplore/Pods-BookExplore.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60CA3E5F994A60E821B7114E /* Pods_BookExplore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,8 @@
 			children = (
 				3819F17A202A26EF002DC274 /* BookExplore */,
 				3819F179202A26EF002DC274 /* Products */,
+				786D3472E48CE43D6568AF8F /* Pods */,
+				A7DC508D765862F854E33B9B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +71,33 @@
 			children = (
 				3819F17B202A26EF002DC274 /* AppDelegate.swift */,
 				3819F17D202A26EF002DC274 /* ViewController.swift */,
+				381C9F7A202A3DE1006E01B5 /* userFormViewController.swift */,
+				381C9F7E202AA97C006E01B5 /* addBookViewController.swift */,
 				3819F17F202A26EF002DC274 /* Main.storyboard */,
 				3819F185202A26EF002DC274 /* Assets.xcassets */,
 				3819F187202A26EF002DC274 /* LaunchScreen.storyboard */,
 				3819F18A202A26EF002DC274 /* Info.plist */,
 				3819F182202A26EF002DC274 /* BookExplore.xcdatamodeld */,
+				381C9F7C202A3F83006E01B5 /* Book.swift */,
 			);
 			path = BookExplore;
+			sourceTree = "<group>";
+		};
+		786D3472E48CE43D6568AF8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A38A2BD23221E806D5060CB /* Pods-BookExplore.debug.xcconfig */,
+				6B92227130EDF4860918BA8C /* Pods-BookExplore.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A7DC508D765862F854E33B9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				330424163BB4F26F49A9A900 /* Pods_BookExplore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3819F18D202A26EF002DC274 /* Build configuration list for PBXNativeTarget "BookExplore" */;
 			buildPhases = (
+				36964298A36A8AEE12203DF2 /* [CP] Check Pods Manifest.lock */,
 				3819F174202A26EF002DC274 /* Sources */,
 				3819F175202A26EF002DC274 /* Frameworks */,
 				3819F176202A26EF002DC274 /* Resources */,
+				A8B6C78F3B3CFB4690C813DC /* [CP] Embed Pods Frameworks */,
+				8A74DA257EDBD988F741FFA3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,13 +170,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		36964298A36A8AEE12203DF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BookExplore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A74DA257EDBD988F741FFA3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BookExplore/Pods-BookExplore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8B6C78F3B3CFB4690C813DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BookExplore/Pods-BookExplore-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/DCKit/DCKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DCKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BookExplore/Pods-BookExplore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3819F174202A26EF002DC274 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3819F184202A26EF002DC274 /* BookExplore.xcdatamodeld in Sources */,
+				381C9F7F202AA97C006E01B5 /* addBookViewController.swift in Sources */,
 				3819F17E202A26EF002DC274 /* ViewController.swift in Sources */,
+				381C9F7B202A3DE1006E01B5 /* userFormViewController.swift in Sources */,
+				381C9F7D202A3F83006E01B5 /* Book.swift in Sources */,
 				3819F17C202A26EF002DC274 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +381,7 @@
 		};
 		3819F18E202A26EF002DC274 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A38A2BD23221E806D5060CB /* Pods-BookExplore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -285,12 +391,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.NetCool.BookExplore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3819F18F202A26EF002DC274 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B92227130EDF4860918BA8C /* Pods-BookExplore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,7 +407,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.NetCool.BookExplore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

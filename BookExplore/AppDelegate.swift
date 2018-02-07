@@ -8,15 +8,34 @@
 
 import UIKit
 import CoreData
+import Parse
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+  
+        let configuration = ParseClientConfiguration {
+            $0.applicationId = "BookExploreAPP"    // app Key in heroku
+            $0.clientKey = "BookExploreMaster"                // master Key in heroku
+            $0.server = "http://book-explore-server.herokuapp.com/parse"   // heroku server address or change to local
+        }
+        Parse.initialize(with: configuration)
+        
+        
+        // local server url
+        // parse-dashboard --appId BookExploreAPP --masterKey BookExploreMaster --serverURL "http://book-explore-server.herokuapp.com/parse"
+        
+        
+        
+        
+        
         return true
     }
 
